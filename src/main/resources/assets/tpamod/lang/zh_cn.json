@@ -1,0 +1,12 @@
+{
+	"commands.tpamod.request_sender": "你已向{0}发起传送请求，请求将在 60 秒后失效.",
+	"commands.tpamod.request_target": "§e{0}想要传送到你那里去,60秒后取消传送\n    §e输入/tpaccept {0}同意传送,输入/tpdeny {0}拒绝传送.",
+	"commands.tpamod.offline": "§c错误:对方不在线!",
+	"commands.tpamod.accept_sender": "§a对方同意了你的请求",
+	"commands.tpamod.accept_target": "§a你同意了对方的请求",
+	"commands.tpamod.no_request": "§c错误:没有{0}的传送请求!",
+	"commands.tpamod.deny_sender": "§c对方拒绝了你的请求",
+	"commands.tpamod.deny_target": "§e你拒绝了对方的请求",
+	"commands.tpamod.cancel": "§a你取消了传送请求",
+	"commands.tpamod.cancel_no_request": "§c错误:你没有发送任何传送请求!"
+}

@@ -8,14 +8,15 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraftforge.event.TickEvent;
 import net.minecraft.commands.CommandSourceStack;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod("tpamod")
 public class tpamod {
-	private Logger log;
+	private static final Logger log = LogManager.getLogger("tpamod");
     public tpamod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        log.info("Tpa Mod Loding");
+        log.info("Tpa Mod is initializing...");
     }
 
     @Mod.EventBusSubscriber(modid = "tpamod", bus = Mod.EventBusSubscriber.Bus.FORGE)

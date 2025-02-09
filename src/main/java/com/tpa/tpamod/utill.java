@@ -1,6 +1,5 @@
 package com.tpa.tpamod;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.server.level.ServerPlayer;
@@ -14,13 +13,6 @@ public class utill {
 	        sender.teleportTo(targetLevel, targetPos.x, targetPos.y, targetPos.z, target.getYRot(), target.getXRot());
 	    }
 	}
-    public static class ChatMessageSender {
-        public static void sendMessageToPlayer(ServerPlayer player, String message) {
-            Component chatMessage = Component.literal(message);
-            player.sendSystemMessage(chatMessage);
-        }
-    }
-
     
     public static class PlayerNameToObjectConverter {
         /**

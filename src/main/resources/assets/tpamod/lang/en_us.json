@@ -1,0 +1,12 @@
+{
+    "commands.tpamod.request_sender": "You have sent a teleport request to {0}. The request will expire in 60 seconds.",
+    "commands.tpamod.request_target": "§e{0} wants to teleport to you. The request will be cancelled in 60 seconds.\n    §eType /tpaccept {0} to accept the teleport, or /tpdeny {0} to reject it.",
+    "commands.tpamod.offline": "§cError: The other player is offline!",
+    "commands.tpamod.accept_sender": "§aThe other player has accepted your request.",
+    "commands.tpamod.accept_target": "§aYou have accepted the other player's request.",
+    "commands.tpamod.no_request": "§cError: There is no teleport request from {0}!",
+    "commands.tpamod.deny_sender": "§cThe other player has rejected your request.",
+    "commands.tpamod.deny_target": "§eYou have rejected the other player's request.",
+    "commands.tpamod.cancel": "§aYou have cancelled the teleport request.",
+    "commands.tpamod.cancel_no_request": "§cError: You have not sent any teleport requests!"
+}
