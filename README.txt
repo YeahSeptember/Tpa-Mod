@@ -1,5 +1,8 @@
 Tpa-Mod
 
+This project uses the GNU General Public License v3.0 licensing agreement. For detailed license terms, please refer to the'LICENSE 'file in the root directory of the project.
+You can also visit [https://www.gnu.org/licenses/gpl-3.0.html] (https://www.gnu.org/licenses/gpl-3.0.html) to view the full agreement content.
+
 I.Overview
 This module is a teleport request function plug-in in the Minecraft Forge environment, 
 allowing players to send transfer requests to other players in the game for convenient location movement.
